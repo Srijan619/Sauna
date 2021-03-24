@@ -1,0 +1,38 @@
+.containerM{
+    display: flex;
+    flex-direction: column;
+    background-image: url("../../assets/img/sauna_search.jpg") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    max-height: 100%;
+    color:white;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    overflow: hidden;
+ }
+ .titleContainer{
+    text-align: center;
+ }
+.buttonLogin{
+    padding-top: 25px;
+    margin-top: 5px;
+    width:100%;
+    text-align: center;
+    padding-bottom: 25px;
+}
+ #buttonLogin{
+    border: 1px solid white;
+    border-radius: 5%;
+    text-transform: none;
+    color:white;
+    margin: 25px 0;
+ }
+ #buttonLogin:hover, .MuiButton-containedSecondary:hover {
+    background-color: white;
+    color: black;
+ }
+.containerM .MuiInput-underline::before {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.29) !important;
+}

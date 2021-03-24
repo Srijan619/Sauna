@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://js.stripe.com/v3/"></script>
+    <title>Saunaan</title>
+    <style media="screen">
+      body { margin: 0; padding: 0; }
+    </style>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/7.5.2/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+         https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/7.5.2/firebase-analytics.js"></script>
+
+    <script>
+      // Your web app's Firebase configuration
+      var firebaseConfig = {
+        apiKey: "AIzaSyC27884_UFyJsDGG-M61CK7IQw9m6uACGQ",
+        authDomain: "sauna-app.firebaseapp.com",
+        databaseURL: "https://sauna-app.firebaseio.com",
+        projectId: "sauna-app",
+        storageBucket: "sauna-app.appspot.com",
+        messagingSenderId: "272419458538",
+        appId: "1:272419458538:web:97f1c0a3ba2ffe9b5d7693",
+        measurementId: "G-QQQN7ESJS3"
+      };
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+      firebase.analytics();
+    </script>
+  </head>
+
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+  </body>
+</html>

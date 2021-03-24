@@ -1,0 +1,40 @@
+body {
+    max-width: 100%;
+}
+.container{
+   display: flex;
+   flex-direction: column;
+   padding: 10px;
+   padding-bottom: 50px;
+   width:auto;
+   font-family: 'Roboto', sans-serif;
+   max-width: 100%;
+    overflow: hidden;
+}
+
+.container h2:nth-child(2){
+    color: #317042;
+    margin-left: 5px;
+}
+
+.title{
+    display: flex;
+    flex-direction: row;
+}
+
+.card{
+    display: flex;
+    width: auto;
+    flex-direction: row;
+}
+#imge{
+    background-position: center;
+    flex:1;
+    height: 150px;
+    width: 120px;
+    overflow: hidden;
+}
+
+
+
+
